@@ -47,7 +47,11 @@ Speziell konzipiert für **Remote Desktop (RDP)**, **Citrix**, **VMware**, **VNC
 ## 🛠 Starten & Ausführen
 
 ```powershell
-cd f:\GoogleAntigravityProjects\WindowTextInjector
+# Repository klonen & öffnen
+git clone https://github.com/Daweki/WindowTextInjector.git
+cd WindowTextInjector
+
+# Anwendung starten
 dotnet run
 ```
 
