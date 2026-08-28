@@ -53,6 +53,13 @@ dotnet run
 
 ---
 
+## 🤝 Mitwirken (Contributing)
+
+Beiträge, Fehlerberichte und Verbesserungsvorschläge sind herzlich willkommen!  
+Details zum Entwicklungsprozess findest du in der [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
 ## 📄 Lizenz & Copyright
 
 Copyright © 2026 Daweki. Alle Rechte vorbehalten.  
