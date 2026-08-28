@@ -40,3 +40,4 @@ For interface, SQL, database and automation tools, always use the serious, techn
 - **GitHub Account**: `Daweki`
 - **Repository URL**: `https://github.com/Daweki/WindowTextInjector.git`
 - **Branch**: `main`
+- **License**: MIT License (`Copyright © 2026 Daweki. All rights reserved.`)

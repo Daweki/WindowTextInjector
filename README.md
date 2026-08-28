@@ -50,3 +50,10 @@ Speziell konzipiert für **Remote Desktop (RDP)**, **Citrix**, **VMware**, **VNC
 cd f:\GoogleAntigravityProjects\WindowTextInjector
 dotnet run
 ```
+
+---
+
+## 📄 Lizenz & Copyright
+
+Copyright © 2026 Daweki. Alle Rechte vorbehalten.  
+Lizenziert unter der [MIT-Lizenz](LICENSE).
