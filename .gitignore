@@ -1,6 +1,7 @@
 ## .NET / Visual Studio gitignore
 [Bb]in/
 [Oo]bj/
+[Pp]ublish/
 [Ll]og/
 [Ll]ogs/
 .vs/
