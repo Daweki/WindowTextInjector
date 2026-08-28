@@ -8,6 +8,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
     <RollForward>LatestMajor</RollForward>
+    <DebugType>embedded</DebugType>
     <RootNamespace>WindowTextInjector</RootNamespace>
     <AssemblyName>WindowTextInjector</AssemblyName>
   </PropertyGroup>
