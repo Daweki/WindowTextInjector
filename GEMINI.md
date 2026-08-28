@@ -17,7 +17,26 @@
   - Default: `SingleFieldWithEnter` (Normal text box typing into single center point).
   - Optional: `AutoRowClick` (slices rectangle into $N$ vertical rows for multi-field forms/tables).
 
-## 3. Git & Repository
+## 3. UI Design System & Semantic Color Palette (Dark Tech)
+For interface, SQL, database and automation tools, always use the serious, technical **Dark Tech** color palette:
+
+| Element | Hex Code | RGB | Verwendung |
+|---|---|---|---|
+| **Hintergrund** | `#121820` | `18, 24, 32` | Hauptfenster-Hintergrund |
+| **Header / Footer** | `#0F151D` | `15, 21, 29` | Kopf- und Fußleisten |
+| **Panels / Cards** | `#1B2530` | `27, 37, 48` | Container, Karten, Sektionen |
+| **Input Background** | `#10161E` | `16, 22, 30` | Textfelder, Dropdowns |
+| **Hauptfarbe (Blau)** | `#1976D2` | `25, 118, 210` | Normale Aktionen, primäre Buttons, Schnittstelle |
+| **Akzent (Cyan)** | `#00BCD4` | `0, 188, 212` | Aktive Verbindung, Zielmarkierung, Koordinaten, Datenfluss |
+| **Text (Primär)** | `#E8EEF2` | `232, 238, 242` | Überschriften, Haupttext |
+| **Sekundärtext / Labels** | `#8B9AA8` | `139, 154, 168` | Beschriftungen, Metadaten, inaktive Elemente |
+| **Sekundärbuttons** | `#253342` | `37, 51, 66` | Neutrale Buttons (Demo, Clipboard, Leeren) |
+| **Erfolg (Grün)** | `#4CAF50` | `76, 175, 80` | Senden, Erfolg, Synchronisation |
+| **Warnung (Orange)** | `#FFB300` | `255, 179, 0` | Warnungen, manueller Eingriff |
+| **Fehler / Abbruch (Rot)** | `#EF5350` | `239, 83, 80` | Fehler, Abbrechen / Stop |
+| **Konfiguration (Violett)** | `#AB47BC` | `171, 71, 188` | Konfiguration, Administration |
+
+## 4. Git & Repository
 - **GitHub Account**: `Daweki`
 - **Repository URL**: `https://github.com/Daweki/WindowTextInjector.git`
 - **Branch**: `main`
