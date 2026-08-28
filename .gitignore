@@ -10,3 +10,27 @@
 *.userosscache
 *.sln.docstates
 *.DotSettings.user
+
+## AI Assistant Memory & Internal Rules (Stay local, not published)
+GEMINI.md
+AGENTS.md
+CLAUDE.md
+.agents/
+.gemini/
+.cursor/
+.cursorrules
+.windsurfrules
+.copilot/
+.github/copilot-instructions.md
+
+## Secrets, Credentials & Local Configs
+.env
+.env.*
+*.env
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+*.pfx
+*.p12
+*.pem
+*.key
