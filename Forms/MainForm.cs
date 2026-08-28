@@ -25,6 +25,11 @@ public partial class MainForm : Form
     {
         InitializeComponent();
 
+        if (File.Exists("icon.ico"))
+        {
+            try { Icon = new Icon("icon.ico"); } catch { }
+        }
+
         PopulateDropdowns();
         WireEvents();
     }

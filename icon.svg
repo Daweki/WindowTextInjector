@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="50%" stop-color="#121820"/>
+      <stop offset="100%" stop-color="#0F151D"/>
+    </linearGradient>
+
+    <!-- Accent Gold/Amber Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+
+    <!-- Cyan Accent Gradient -->
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#00BCD4"/>
+    </linearGradient>
+
+    <!-- Blue Primary Gradient -->
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1976D2"/>
+    </linearGradient>
+
+    <!-- Outer Shadow -->
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Squircle Plate with Subtly Rounded Corners -->
+  <rect x="16" y="16" width="224" height="224" rx="48" ry="48" fill="url(#bgGrad)" stroke="#2A384C" stroke-width="3" filter="url(#dropShadow)"/>
+
+  <!-- Inner Subtle Border Accent -->
+  <rect x="24" y="24" width="208" height="208" rx="40" ry="40" fill="none" stroke="url(#blueGrad)" stroke-width="1.5" stroke-opacity="0.4"/>
+
+  <!-- Precision Crosshair Target Ring (Gold/Amber & Cyan) -->
+  <circle cx="128" cy="128" r="64" fill="none" stroke="url(#cyanGrad)" stroke-width="3.5" stroke-dasharray="6 4" stroke-opacity="0.8"/>
+  <circle cx="128" cy="128" r="42" fill="#16202C" stroke="url(#goldGrad)" stroke-width="2.5"/>
+
+  <!-- Target Axis Marks -->
+  <line x1="128" y1="46" x2="128" y2="60" stroke="#00BCD4" stroke-width="3" stroke-linecap="round"/>
+  <line x1="128" y1="196" x2="128" y2="210" stroke="#00BCD4" stroke-width="3" stroke-linecap="round"/>
+  <line x1="46" y1="128" x2="60" y2="128" stroke="#00BCD4" stroke-width="3" stroke-linecap="round"/>
+  <line x1="196" y1="128" x2="210" y2="128" stroke="#00BCD4" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Center Typing / Lightning Fast Injection Motif -->
+  <!-- Stylized Lightning Bolt / Text Prompt Arrow -->
+  <path d="M134 76 L104 126 L124 126 L116 180 L156 122 L132 122 Z" 
+        fill="url(#goldGrad)" 
+        stroke="#FFF" 
+        stroke-width="1.5" 
+        stroke-linejoin="round"/>
+
+  <!-- Terminal Caret / Prompt Dots (Bottom Left & Right) -->
+  <circle cx="92" cy="190" r="4" fill="#00BCD4"/>
+  <circle cx="164" cy="190" r="4" fill="#00BCD4"/>
+</svg>

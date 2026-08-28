@@ -15,8 +15,12 @@
     <Authors>Daweki</Authors>
     <Company>Daweki</Company>
     <Copyright>Copyright © 2026 Daweki</Copyright>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
     <Description>Remote &amp; Local Target Text Typer with low-level keyboard simulation</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icon.ico" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
 
 </Project>
