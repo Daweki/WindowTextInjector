@@ -56,4 +56,4 @@ dotnet run
 ## 📄 Lizenz & Copyright
 
 Copyright © 2026 Daweki. Alle Rechte vorbehalten.  
-Lizenziert unter der [MIT-Lizenz](LICENSE).
+Lizenziert unter der [GNU General Public License v3.0 (GPLv3)](LICENSE).

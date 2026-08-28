@@ -15,6 +15,7 @@
     <Authors>Daweki</Authors>
     <Company>Daweki</Company>
     <Copyright>Copyright © 2026 Daweki</Copyright>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
     <ApplicationIcon>icon.ico</ApplicationIcon>
     <Description>Remote &amp; Local Target Text Typer with low-level keyboard simulation</Description>
   </PropertyGroup>
